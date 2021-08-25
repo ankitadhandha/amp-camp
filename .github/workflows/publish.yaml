@@ -12,7 +12,7 @@ jobs:
     - name: Build amp site 🔧
       run: |
         npm install
-        # gulp
+        gulp
     - name: Deploy to gh-pages 🚀
       uses: peaceiris/actions-gh-pages@v3
       with:
