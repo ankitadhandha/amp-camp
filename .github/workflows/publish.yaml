@@ -12,9 +12,9 @@ jobs:
     - name: Build amp site 🔧
       run: |
         npm install
-        gulp
+        #gulp
     - name: Deploy to gh-pages 🚀
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: src/html/pages
+        publish_dir: src/html/pages, src/html/partials
