@@ -221,4 +221,4 @@ gulp.task('prepare', gulp.series('clean', 'build'));
  * Default task is to perform a clean build then set up browser sync for live
  * reloading.
  */
-gulp.task('default', gulp.series('build', 'nodemon', 'browser-sync', 'watch'));
+gulp.task('default', gulp.series('build', 'nodemon', 'watch'));
