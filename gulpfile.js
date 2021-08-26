@@ -182,10 +182,10 @@ gulp.task('serve', function sync(done) {
 });
 
 gulp.task('browser-sync', function sync(done) {
-    /*bs.init(null, {
+    bs.init(null, {
         proxy: "http://localhost:8080", // port of node server
     });
-    done();*/
+    done();
 });
 
 gulp.task('nodemon', function (cb) {
