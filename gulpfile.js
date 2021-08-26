@@ -171,7 +171,7 @@ gulp.task('rebuild', gulp.series('build', function rebuild(done) {
 /**
  * Sets up the live browser sync.
  */
-/* 
+
 gulp.task('serve', function sync(done) {
     bs.init({
         server: {
@@ -180,7 +180,7 @@ gulp.task('serve', function sync(done) {
     });
     done();
 });
-*/
+
 gulp.task('browser-sync', function sync(done) {
     /*bs.init(null, {
         proxy: "http://localhost:8080", // port of node server
